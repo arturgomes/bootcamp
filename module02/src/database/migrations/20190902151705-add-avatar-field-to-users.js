@@ -9,7 +9,11 @@ module.exports = {
     });
   },
 
+<<<<<<< HEAD
   down: queryInterface => {
+=======
+  down: (queryInterface, Sequelize) => {
+>>>>>>> 958d31208298e10818f1203fe91978bc72fe0166
     return queryInterface.removeColumn('users', 'avatar_id');
   },
 };
